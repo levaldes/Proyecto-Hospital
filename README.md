@@ -2,7 +2,7 @@
 
 Este proyecto consiste en un sistema de gestión de citas médicas estructurado bajo una arquitectura de microservicios utilizando **Spring Boot** y **Spring Cloud (OpenFeign)**. El ecosistema está compuesto por tres servicios independientes que se comunican de forma síncrona a través de la red y persisten sus datos en bases de datos relacionales independientes.
 
-## 👥 Integrantes del Equipo
+## Integrantes del Equipo
 * Leonardo Valdes
 * Daniel Jimenez
 * Marcela Zepulveda
@@ -12,7 +12,7 @@ Este proyecto consiste en un sistema de gestión de citas médicas estructurado 
 
 ---
 
-## 🛠️ Funcionalidades Implementadas
+## Funcionalidades Implementadas
 
 El sistema implementa un modelo de diseño robusto para las siguientes operaciones esenciales:
 
@@ -32,7 +32,7 @@ El sistema implementa un modelo de diseño robusto para las siguientes operacion
 
 ---
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 Para ejecutar este proyecto de manera local, asegúrate de contar con las siguientes herramientas instaladas:
 * **Java JDK 17**
@@ -42,7 +42,7 @@ Para ejecutar este proyecto de manera local, asegúrate de contar con las siguie
 
 ---
 
-## 🚀 Pasos para la Ejecución e Instalación
+## Pasos para la Ejecución e Instalación
 
 ### 1. Configuración de la Base de Datos (Laragon)
 Abra su gestor de bases de datos (HeidiSQL) y cree tres bases de datos independientes y vacías. El sistema se encargará de generar las tablas automáticamente (`ddl-auto=update`):
